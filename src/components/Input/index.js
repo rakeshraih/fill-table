@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './index.scss';
 
 function Input({ onBlur, name, id, value }) {
-  const [inputValue, setInputValue] = useState(value || 5);
+  const [inputValue, setInputValue] = useState(value || 15);
 
   return (
     <div className="input-comp">

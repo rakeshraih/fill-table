@@ -11,8 +11,8 @@ import Utilities from './components/Utilities';
 import User from './components/User';
 
 function App() {
-  const [width, setWidth] = useState(5);
-  const [height, setHeight] = useState(5);
+  const [width, setWidth] = useState(15);
+  const [height, setHeight] = useState(15);
   const [filler, setFiller] = useState({});
   const [paint, setPaint] = useState(false);
 
@@ -20,7 +20,7 @@ function App() {
     <FillerProvider value={{ filler }}>
       <AppProvider value={{ width, height, paint }}>
         <section className="App">
-          <h2>Event Delegation, Component reuse, Debouse, Mouse Events, Rerenders etc</h2>
+          <h2>Demo of Event Delegation, Component reuse, Debouse, Mouse Events, Re-rerenders etc</h2>
           <div className="filler-container">
             <div>
               <Menu

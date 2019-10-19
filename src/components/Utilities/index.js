@@ -7,8 +7,8 @@ function Utilities({ setPaint, setWidth, setHeight, setFiller, paint }) {
     <div className="utilities-comp">
       <button
         onClick={() => {
-          setWidth(5);
-          setHeight(5);
+          setWidth(15);
+          setHeight(15);
           setFiller({});
         }}
         style={{ display: 'none' }}
