@@ -20,6 +20,7 @@ function App() {
     <FillerProvider value={{ filler }}>
       <AppProvider value={{ width, height, paint }}>
         <section className="App">
+          <h2>Event Delegation, Component reuse, Debouse, Mouse Events, Rerenders etc</h2>
           <div className="filler-container">
             <div>
               <Menu
