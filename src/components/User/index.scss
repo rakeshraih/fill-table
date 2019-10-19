@@ -1,0 +1,10 @@
+.user-comp {
+  display: flex;
+  div {
+    color: #ccc;
+    line-height: 75px;
+  }
+  > * {
+    padding-right: 20px;
+  }
+}

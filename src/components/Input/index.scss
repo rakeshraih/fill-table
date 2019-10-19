@@ -1,0 +1,15 @@
+.input-comp {
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  height: 60px;
+  label {
+    padding: 0 15px;
+    text-transform: capitalize;
+  }
+  input {
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+  }
+}
