@@ -6,7 +6,7 @@
       box-sizing: content-box;
       &.selected {
         box-shadow: 0px 2px 20px -10px rgba(0, 0, 0, 0.75);
-        border: 1px solid #ccc;
+        border: 1px solid #a8026f;
       }
       img {
         padding-top: 5px;
@@ -24,6 +24,7 @@
       flex-direction: row;
       flex-wrap: wrap;
       border: 1px solid #ccc;
+      z-index: 10;
 
       li {
         width: 15%;

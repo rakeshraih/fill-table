@@ -14,12 +14,13 @@ function App() {
   const [width, setWidth] = useState(15);
   const [height, setHeight] = useState(15);
   const [filler, setFiller] = useState({});
-  const [paint, setPaint] = useState(false);
+  const [paint, setPaint] = useState(true);
 
   return (
     <FillerProvider value={{ filler }}>
       <AppProvider value={{ width, height, paint }}>
         <section className="App">
+          <h1 className="title">Fill Table</h1>
           <h2>Demo of Event Delegation, Component reuse, Debouse, Mouse Events, Re-rerenders etc</h2>
           <div className="filler-container">
             <div>
@@ -29,12 +30,10 @@ function App() {
                   setFiller({ component, name: 'emoji' });
                 }}
               ></Menu>
-              <Filler name="B" selected={filler.name === 'B'} setFiller={setFiller}>
-                <span>B</span>
+              <Filler name="A" selected={filler.name === 'A'} setFiller={setFiller}>
+                <span>A</span>
               </Filler>
-              <Filler reset name="E" selected={filler.name === 'E'} setFiller={setFiller}>
-                <span>E</span>
-              </Filler>
+              <Filler reset name="E" selected={filler.name === 'E'} setFiller={setFiller}></Filler>
             </div>
             <div>
               <Input

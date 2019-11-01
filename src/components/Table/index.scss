@@ -18,6 +18,7 @@
           background: transparent;
           text-align: center;
           box-sizing: border-box;
+          cursor: pointer !important;
           &:focus {
             border: 1px solid #ccc;
           }

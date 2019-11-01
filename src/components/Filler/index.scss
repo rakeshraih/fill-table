@@ -12,10 +12,10 @@
     cursor: pointer;
     &.selected {
       box-shadow: 0px 2px 20px -10px rgba(0, 0, 0, 0.75);
-      border: 1px solid #ccc;
+      border: 1px solid #a8026f;
     }
     &:hover {
-      border-bottom: 1px solid #003abc;
+      border: 1px solid #a8026f;
     }
   }
 }
@@ -23,4 +23,11 @@
 span {
   font-size: 30px;
   font-weight: 600;
+}
+
+div.filler-container .menu-comp + div + div {
+  background: url(https://user-images.githubusercontent.com/928944/60443532-4c78d180-9bd0-11e9-87d1-068003f4291e.png);
+  background-repeat: no-repeat;
+  width: 15px;
+  background-position: center;
 }

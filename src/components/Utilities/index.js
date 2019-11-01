@@ -22,6 +22,7 @@ function Utilities({ setPaint, setWidth, setHeight, setFiller, paint }) {
         onClick={event => {
           setPaint(!paint);
         }}
+        checked={paint}
       />
       <label htmlFor="paint-check">Paint</label>
     </div>

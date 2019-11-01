@@ -10,7 +10,6 @@ const Td = function Td({ height, width, paint }) {
   const [clicked, setClicked] = useState(false);
   const { filler } = useContext(FillerContext);
   const { component, name } = filler;
-  console.log('render');
   return (
     <td
       tabIndex="0"
